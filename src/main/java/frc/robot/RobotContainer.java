@@ -12,8 +12,7 @@ public class RobotContainer {
   public RobotContainer() {
     configureBindings();
   }
-  public static CANBus canbus = new CANBus("rio");
-
+  
 
   private void configureBindings() {}
 
